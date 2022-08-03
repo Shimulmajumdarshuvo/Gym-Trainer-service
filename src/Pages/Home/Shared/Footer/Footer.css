@@ -1,0 +1,15 @@
+.footerPart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #0c1f34;
+    color: aliceblue;
+}
+
+.fSection {
+    padding: 20px 20px;
+    margin-left: 5%;
+}
+
+.fSection p {
+    padding-top: 5%;
+}

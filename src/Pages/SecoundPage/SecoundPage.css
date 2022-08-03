@@ -1,0 +1,46 @@
+.intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.content {
+    padding-left: 10%;
+    background-color: rgb(11, 37, 41);
+}
+
+
+.content h1 {
+    display: flex;
+    font-size: 46px;
+    font-weight: bold;
+    padding-top: 30%;
+    color: white;
+
+
+}
+
+.content p {
+    display: flex;
+    font-weight: bold;
+    text-align: left;
+    align-items: center;
+    color: white;
+
+}
+
+.button {
+    border: 1 px solid rosybrown;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: rgb(2, 70, 133);
+    font-weight: bold;
+    border: none;
+    color: white;
+
+
+}
+
+.button:hover {
+    background-color: rgb(87, 5, 53);
+}
