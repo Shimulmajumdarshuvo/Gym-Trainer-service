@@ -1,0 +1,48 @@
+.MainPlan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 26px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.heade {
+    text-align: center;
+    color: darkcyan;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+
+.plan {
+    border: 1px solid rgb(227, 238, 238);
+    border-radius: 5px;
+}
+
+.plan h3 {
+    text-align: center;
+    background-color: rgb(127, 225, 255);
+    padding: 8px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.plan span {
+    padding-bottom: 6px;
+}
+
+.btns {
+    border: 1 px solid rosybrown;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background-color: #6495ED;
+    font-weight: bold;
+    border: none;
+    color: white;
+    margin: 20px;
+}
+
+.MainPlan .plan:hover {
+    transform: translateY(-30px);
+}
