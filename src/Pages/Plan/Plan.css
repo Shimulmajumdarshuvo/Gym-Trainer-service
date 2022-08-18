@@ -109,3 +109,23 @@
         clip-path: polygon(0% 60%, 7% 45%, 13% 45%, 23% 49%, 36% 53%, 49% 54%, 60% 53%, 71% 50%, 78% 46%, 88% 41%, 94% 40%, 99% 41%, 100% 57%, 60% 81%, 0% 100%, 1% 70%);
     }
 }
+
+
+
+@media only screen and (max-width:860px) {
+    .MainPlan {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .MainPlan {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
