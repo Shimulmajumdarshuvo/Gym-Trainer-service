@@ -5,7 +5,13 @@ const SpecialDiet = () => {
     return (
         <div className='ditePart'>
             <div className='container'>
-                <h2 >Special Diet</h2>
+                <div className='pItem'>
+                    <div className='headerPlan '>
+                        <h2 >SpecialDiet</h2>
+                        <h2 >SpecialDiet</h2>
+                    </div>
+                </div>
+
                 <div className='DietChart'>
                     <div className="diet">
                         <img src="https://southerneats.b-cdn.net/wp-content/uploads/2021/02/boiled-chicken-dish-800x530.jpg" alt="" />

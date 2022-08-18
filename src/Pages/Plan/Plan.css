@@ -1,8 +1,13 @@
+.PlanHead {
+    background: #dde1e7;
+}
+
 .MainPlan {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 26px;
     text-align: center;
+    padding: 25px 5px;
     margin: 30px 0;
 }
 
@@ -14,10 +19,49 @@
     font-weight: bold;
 }
 
+.pItem {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.headerPlan {
+
+    position: relative;
+
+}
+
+.headerPlan h2 {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+.headerPlan h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #57aad1;
+}
+
+.headerPlan h2:nth-child(2) {
+    color: #031320;
+    animation: animate 4s ease-in-out infinite;
+}
+
+
+
+
 
 .plan {
-    border: 1px solid rgb(227, 238, 238);
+
+    background: #dde1e7;
     border-radius: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+
 }
 
 .plan h3 {
@@ -36,13 +80,32 @@
     border: 1 px solid rosybrown;
     padding: 10px 12px;
     border-radius: 7px;
-    background-color: #6495ED;
+    background: #dde1e7;
     font-weight: bold;
     border: none;
-    color: white;
+    color: rgb(0, 32, 51);
     margin: 20px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.btns:hover {
+    color: rgb(12, 1, 112);
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+
 }
 
 .MainPlan .plan:hover {
     transform: translateY(-30px);
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0%, 45%, 15%, 44%, 32%, 50%, 54%, 60%, 70%, 61%, 84%, 69%, 100%, 52%, 100%, 100%, 0%, 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 7% 45%, 13% 45%, 23% 49%, 36% 53%, 49% 54%, 60% 53%, 71% 50%, 78% 46%, 88% 41%, 94% 40%, 99% 41%, 100% 57%, 60% 81%, 0% 100%, 1% 70%);
+    }
 }
