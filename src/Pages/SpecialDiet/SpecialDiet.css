@@ -33,3 +33,13 @@
     font-family: 'Times New Roman', Times, serif;
     color: rgba(224, 209, 209, 0.795);
 }
+
+
+@media only screen and (max-width:760px) {
+    .DietChart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

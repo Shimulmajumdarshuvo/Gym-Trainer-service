@@ -1,25 +1,31 @@
+.workMain {
+    background: #dde1e7;
+}
+
 .work {
     text-align: center;
+    padding-top: 15px;
     color: rgb(4, 61, 63);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
 
-.work:hover {
-    color: rgb(0, 43, 56);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+.works {
+    padding-bottom: 35px;
 }
 
-/* .master-part {
-    position: relative;
 
-    overflow: hidden;
+.master-part {
+    margin: 20px;
+    background: #dde1e7;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
 
-} */
 
 .images {
-    height: 350px;
+
+    height: 335px;
     padding: 5px;
     text-align: center;
     border-radius: 10px;
