@@ -1,3 +1,10 @@
 .contact {
     background: #dde1e7;
 }
+
+.contactButton {
+    color: whitesmoke;
+    background: #0693e3;
+    border: none;
+
+}

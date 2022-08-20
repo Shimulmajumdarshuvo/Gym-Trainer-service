@@ -1,5 +1,6 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.css';
+import { FaFacebookSquare, FaGithubSquare, FaInvision, FaSkype, FaTelegram, FaTwitter } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -21,7 +22,14 @@ const Footer = () => {
             <div className='fSection'> <h4>Contact Us</h4>
                 <h6>Email : shimulmajumdar906@gmail.com</h6>
                 <h6>Phone : +8801303461237</h6>
-                <h6>Address : Khulna , Bangladesh</h6>
+                <h6 className='py-1'>Address : Khulna , Bangladesh</h6>
+
+                <span><FaFacebookSquare /></span>
+                <span><FaGithubSquare /></span>
+                <span><FaInvision /></span>
+                <span><FaSkype></FaSkype></span>
+                <span><FaTelegram></FaTelegram></span>
+                <span><FaTwitter></FaTwitter></span>
             </div>
 
             <div className='fSection'>
