@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar className='navbar-part text-info' collapseOnSelect expand="lg" sticky='top' >
                 <Container className='nav-bar '>
                     <Navbar.Brand as={Link} to="/">
-                        <img width={180} src="http://html.tonatheme.com/2020/stayfitn/images/logo.png" alt="" />
+                        <img width={150} src="http://html.tonatheme.com/2020/stayfitn/images/logo.png" alt="" />
 
                     </Navbar.Brand>
 
@@ -20,14 +20,14 @@ const Header = () => {
                         <Nav className="me-auto  ">
                         </Nav>
                         <Nav className='text'>
-                            <Nav.Link className='text-white' href='#home'>Home</Nav.Link>
-                            <Nav.Link className='text-white' href='#about'>About Us</Nav.Link>
-                            <Nav.Link className='text-white' href='#services'>Services</Nav.Link>
-                            <Nav.Link className='text-white' href='#courses'>Courses</Nav.Link>
-                            <Nav.Link className='text-white' href="#experience">Experience</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href='#home'>Home</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href='#about'>About Us</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href='#services'>Services</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href='#courses'>Courses</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href="#experience">Experience</Nav.Link>
 
-                            <Nav.Link className='text-white' as={Link} to="/blogs">Blogs</Nav.Link>
-                            <Nav.Link className='text-white' href="#contact">Contact</Nav.Link>
+                            <Nav.Link className='text-white nav-item' as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='text-white nav-item' href="#contact">Contact</Nav.Link>
 
 
                         </Nav>
